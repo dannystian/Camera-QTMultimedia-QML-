@@ -22,13 +22,12 @@ ApplicationWindow
             anchors.fill: parent
             spacing: 0
 
-            // Column 1 (80% width)
+           
             ColumnLayout
             {
                 Layout.preferredWidth: parent.width * 0.8
                 Layout.fillHeight: true
-                spacing: 0  // No spacing between rows
-
+                spacing: 0  
                 
                 Item
                 {
